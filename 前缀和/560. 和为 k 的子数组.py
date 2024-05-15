@@ -3,7 +3,10 @@
 # @Des     :
 from typing import List
 
+"""
 
+前缀和 + 哈希表
+"""
 class Solution:
 
     def subarraySum(self, nums: List[int], k: int) -> int:
