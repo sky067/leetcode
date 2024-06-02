@@ -2,10 +2,7 @@
 # @File    : 101对称二叉树.py
 # @Des     :
 
-"""
-相等二叉树的变种
-难度：simple
-"""
+
 
 
 # Definition for a binary tree node.
@@ -14,6 +11,11 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+
+"""
+相等二叉树的变种
+难度：simple
+"""
 class Solution:
     def isSymmetric(self, root: Optional[TreeNode]) -> bool:
 
